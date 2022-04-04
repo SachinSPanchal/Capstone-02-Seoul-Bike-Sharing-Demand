@@ -31,3 +31,12 @@ The dataset contains weather information (Temperature, Humidity, Windspeed, Visi
 • Snowfall - cm
 
 • Seasons - Winter, Spring, Summer, Autumn
+ Holiday - Holiday/No holiday
+
+• Functional Day - NoFunc(Non Functional Hours), Fun(Functional hours)
+
+# Conclusions:
+
+● We started with loading the data, then we did Exploratory Data Analysis (EDA), null values treatment, feature selection, encoding of categorical columns, and then model building. In all of these models, our accuracy ranges from 56% to 91%, which can be said to be good for such a large dataset. This performance could be due to various reasons like the proper pattern of data, large data, or because of the relevant features.
+
+● After performing variable importance analysis to find the most significant variables for all the models developed with the given data sets. We are getting the best results from CatBoost and LightGBM.
